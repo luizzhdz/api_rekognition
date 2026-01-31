@@ -23,7 +23,7 @@ function getCorsOrigins() {
 }
 
 const config = {
-  port: getEnvInt('PORT', 3000),
+  port: getEnvInt('PORT', 8080),
   nodeEnv: getEnv('NODE_ENV', 'development'),
   corsOrigins: getCorsOrigins(),
   apiKey: getEnv('API_KEY', ''),
